@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gizlilik Politikası • Balax Studio (Aura Pregnancy & Galeriden Tycoon)</title>
+  <meta name="description" content="Balax Studio resmi gizlilik politikası. Aura Pregnancy ve mobil oyunlarımız için KVKK, GDPR, Google Play ve Apple App Store uyumlu veri koruma standartları.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800;900&family=Space+Grotesk:wght@600;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #08090C;
+      --card-bg: #121520;
+      --yellow: #FFE600;
+      --orange: #FF5500;
+      --cyan: #00F0FF;
+      --green: #00FF66;
+      --text: #FFFFFF;
+      --text-dim: #94A3B8;
+      --border: #000000;
+      --border-light: #2A334A;
+      --shadow: 4px 4px 0px #000000;
+      --shadow-xl: 10px 10px 0px #000000;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+      background-size: 28px 28px;
+      color: var(--text);
+      font-family: 'Space Grotesk', -apple-system, sans-serif;
+      padding: 0 16px 80px 16px;
+      line-height: 1.7;
+    }
+
+    .hazard-stripe {
+      background: repeating-linear-gradient(
+        -45deg,
+        var(--yellow),
+        var(--yellow) 16px,
+        #000000 16px,
+        #000000 32px
+      );
+      height: 12px;
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      border-bottom: 3px solid #000000;
+      margin-bottom: 32px;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding-bottom: 24px;
+      border-bottom: 3px solid #000000;
+      margin-bottom: 36px;
+    }
+
+    .brand-stamp {
+      background: var(--yellow);
+      color: #000000;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 900;
+      font-size: 15px;
+      padding: 8px 16px;
+      border: 3px solid #000000;
+      box-shadow: var(--shadow);
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .back-btn {
+      background: #000000;
+      color: var(--yellow);
+      border: 2px solid var(--yellow);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      font-weight: 800;
+      padding: 8px 16px;
+      text-decoration: none;
+      box-shadow: 3px 3px 0px #000000;
+      transition: all 0.15s ease;
+    }
+
+    .back-btn:hover {
+      background: var(--yellow);
+      color: #000000;
+      border-color: #000000;
+    }
+
+    .policy-box {
+      background: var(--card-bg);
+      border: 3.5px solid #000000;
+      box-shadow: var(--shadow-xl);
+      padding: 40px;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 900;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+
+    .meta-date {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      color: var(--cyan);
+      margin-bottom: 28px;
+      display: inline-block;
+      background: #000;
+      padding: 6px 12px;
+      border: 1.5px solid var(--border-light);
+    }
+
+    .section-block {
+      background: #0D0E14;
+      border: 2px solid var(--border-light);
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 16px;
+      font-weight: 900;
+      color: var(--yellow);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    p {
+      color: var(--text-dim);
+      font-size: 15px;
+      margin-bottom: 12px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    strong {
+      color: #FFFFFF;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 12px;
+      color: var(--text-dim);
+      font-size: 14.5px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .disclaimer-box {
+      border-left: 4px solid var(--orange);
+      background: rgba(255, 85, 0, 0.08);
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+
+    footer {
+      border-top: 3px solid #000000;
+      padding-top: 24px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: var(--text-dim);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    footer a {
+      color: var(--yellow);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hazard-stripe"></div>
+
+  <div class="container">
+
+    <header>
+      <a href="index.html" class="brand-stamp">BALAX STUDIO</a>
+      <a href="index.html" class="back-btn">← Ana Sayfaya Dön</a>
+    </header>
+
+    <main class="policy-box">
+      <h1>Balax Studio • Gizlilik Politikası</h1>
+      <div class="meta-date">SON GÜNCELLEME: 2 EYLÜL 2026 • KVKK / GDPR / GOOGLE PLAY / APP STORE UYUMLU</div>
+
+      <div class="section-block">
+        <h2>1. VERİ SORUMLUSU VE KAPSAM</h2>
+        <p>
+          Bu Gizlilik Politikası, <strong>Balax Studio</strong> ("Stüdyo") tarafından geliştirilen <strong>Aura Pregnancy (Hamilelik ve Bebek Takibi)</strong>, <strong>Galeriden Tycoon</strong> ve diğer tüm mobil uygulamalarımız ile oyunlarımızda geçerli veri işleme standartlarını belirler.
+        </p>
+        <p>
+          Uygulamalarımızı kullanarak bu politikada açıklanan yerel depolama ve asgari veri prensiplerini kabul etmiş olursunuz.
+        </p>
+      </div>
+
+      <div class="section-block">
+        <h2>2. ÇEVRİMDIŞI ÖNCELİKLİ (OFFLINE-FIRST) VE SAĞLIK VERİLERİNİN YEREL KORUNMASI</h2>
+        <p>
+          Balax Studio, kullanıcı mahremiyetini en üst düzeyde korumak için <strong>"Zero-Cloud / Yerel Öncelikli Mimari"</strong> uygular.
+        </p>
+        <ul>
+          <li><strong>Aura Pregnancy:</strong> Hamilelik haftası, son adet tarihi, tahmini doğum tarihi, bebek tekme sayaçları, anne ağırlık ve su tüketim kayıtları, doktor kontrol notları, günlük semptomlar ile anı defterine yüklenen ultrason fotoğrafları <strong>yalnızca ve tamamen kullanıcının fiziksel cihazında (yerel SQLite veri tabanı)</strong> saklanır.</li>
+          <li><strong>Sunucu Yoktur:</strong> Balax Studio bu kişisel sağlık ve takip verilerini hiçbir harici sunucuya veya buluta aktarmaz, depolamaz veya satmaz.</li>
+        </ul>
+      </div>
+
+      <div class="section-block">
+        <h2>3. TIBBİ BİLGİLENDİRME VE SORUMLULUK REDDİ (MEDICAL DISCLAIMER)</h2>
+        <div class="disclaimer-box">
+          <p>
+            <strong>Aura Pregnancy bir tıbbi cihaz veya klinik teşhis aracı değildir.</strong>
+          </p>
+          <p>
+            Uygulamada sunulan hafta hafta bebek gelişimi, kil meyve boyut kıyaslamaları, IOM kılavuzlu kilo referansları ve sıvı rehberleri yalnızca genel bilgilendirme amaçlıdır.
+          </p>
+          <p>
+            Hiçbir veri hekim muayenesi, tıbbi teşhis, tedavi veya klinik tavsiye yerine geçmez. Sağlığınızla veya gebeliğinizle ilgili tüm şüphe ve acil durumlarda derhal yetkili bir kadın hastalıkları ve doğum uzmanına veya sağlık merkezine başvurunuz.
+          </p>
+        </div>
+      </div>
+
+      <div class="section-block">
+        <h2>4. ÜÇÜNCÜ TARAF REKLAM SERVİSLERİ (GOOGLE ADMOB)</h2>
+        <p>
+          Uygulamalarımızın ücretsiz sunulabilmesi için etik yerel reklamlar ve kullanıcının isteğiyle tetiklenen ödüllü video reklamlar kullanılmaktadır.
+        </p>
+        <ul>
+          <li>Reklam gösterimi için <strong>Google Mobile Ads SDK (AdMob)</strong> kullanılmaktadır.</li>
+          <li>Google AdMob; teknik reklam sunumu, sahtecilik önleme ve telemetri amacıyla anonim cihaz tanımlayıcıları (IDFA, GAID) ve yaklaşık IP konumunu işleyebilir.</li>
+          <li><strong>Kesin Güvence:</strong> Kişisel sağlık, hamilelik, anı ve günlük verileriniz Google AdMob ile veya reklam ağlarıyla asla paylaşılmaz; reklam hedeflemesinde kullanılamaz.</li>
+        </ul>
+      </div>
+
+      <div class="section-block">
+        <h2>5. CİHAZ İZİNLERİ (KAMERA VE GALERİ)</h2>
+        <p>
+          Aura Pregnancy uygulamasında ultrason veya anı fotoğrafı ekleme özelliği kullanıldığında cihaz galerisi veya kamera erişim izni talep edilir. Bu izinler yalnızca seçtiğiniz fotoğrafın yerel anı albümüne yerleştirilmesi amacıyla cihaz içinde anlık olarak kullanılır; harici bir sunucuya yüklenmez.
+        </p>
+      </div>
+
+      <div class="section-block">
+        <h2>6. KULLANICI HAKLARI VE VERİLERİN TAMAMEN SİLİNMESİ</h2>
+        <p>
+          KVKK ve GDPR kapsamında verileriniz üzerindeki tam tasarruf hakkı size aittir:
+        </p>
+        <ul>
+          <li>Uygulama içi <em>Ayarlar</em> ekranından tek tuşla tüm kayıtlarınızı sıfırlayabilirsiniz.</li>
+          <li>Uygulamayı cihazınızdan sildiğinizde, cihazınızdaki yerel veri tabanı ve önbellek işletim sistemi tarafından kalıcı olarak yok edilir.</li>
+        </ul>
+      </div>
+
+      <div class="section-block">
+        <h2>7. ÇOCUKLARIN GİZLİLİĞİ (COPPA)</h2>
+        <p>
+          Hizmetlerimiz 13 yaşın (veya geçerli yerel mevzuat uyarınca 16 yaşın) altındaki çocuklardan bilerek kişisel veri toplamamaktadır.
+        </p>
+      </div>
+
+      <div class="section-block">
+        <h2>8. İLETİŞİM KANALLARI</h2>
+        <p>
+          Gizlilik haklarınız, veri güvenliği veya teknik sorularınız için doğrudan stüdyomuza ulaşabilirsiniz:
+        </p>
+        <p>
+          <strong>E-Posta:</strong> <a href="mailto:hib0796@gmail.com" style="color: var(--yellow);">hib0796@gmail.com</a><br>
+          <strong>Web Portalı:</strong> <a href="https://balax-studio.github.io/" style="color: var(--yellow);">https://balax-studio.github.io/</a>
+        </p>
+      </div>
+
+    </main>
+
+    <footer>
+      <div>&copy; 2026 BALAX STUDIO • TÜM HAKLARI SAKLIDIR.</div>
+      <div>
+        <a href="index.html">Ana Sayfa</a> • 
+        <a href="app-ads.txt" target="_blank">app-ads.txt</a> • 
+        <a href="mailto:hib0796@gmail.com">Destek</a>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
